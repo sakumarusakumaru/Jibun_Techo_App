@@ -18,3 +18,7 @@ iOS (SwiftUI + SwiftData) のライフログアプリ。後日Androidにも展�
    git clone https://github.com/sakumarusakumaru/Jibun_Techo_App.git
    cd Jibun_Techo_App
    open JibunTechoApp/JibunTechoApp.xcodeproj
+
+---
+
+**Status**: Public / Protected main / PR-based flow
