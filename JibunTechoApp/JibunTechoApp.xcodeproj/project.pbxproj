@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BB3C31C52E476E7500BC8716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB3C31AA2E476E7300BC8716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB3C31B12E476E7300BC8716;
+			remoteInfo = JibunTechoApp;
+		};
+		BB3C31CF2E476E7500BC8716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB3C31AA2E476E7300BC8716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB3C31B12E476E7300BC8716;
+			remoteInfo = JibunTechoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB3C31B22E476E7300BC8716 /* JibunTechoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JibunTechoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3C31C42E476E7500BC8716 /* JibunTechoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JibunTechoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3C31CE2E476E7500BC8716 /* JibunTechoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JibunTechoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BB3C31B42E476E7300BC8716 /* JibunTechoApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JibunTechoApp;
+			sourceTree = "<group>";
+		};
+		BB3C31C72E476E7500BC8716 /* JibunTechoAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JibunTechoAppTests;
+			sourceTree = "<group>";
+		};
+		BB3C31D12E476E7500BC8716 /* JibunTechoAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JibunTechoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB3C31AF2E476E7300BC8716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3C31C12E476E7500BC8716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3C31CB2E476E7500BC8716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB3C31A92E476E7300BC8716 = {
+			isa = PBXGroup;
+			children = (
+				BB3C31B42E476E7300BC8716 /* JibunTechoApp */,
+				BB3C31C72E476E7500BC8716 /* JibunTechoAppTests */,
+				BB3C31D12E476E7500BC8716 /* JibunTechoAppUITests */,
+				BB3C31B32E476E7300BC8716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB3C31B32E476E7300BC8716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB3C31B22E476E7300BC8716 /* JibunTechoApp.app */,
+				BB3C31C42E476E7500BC8716 /* JibunTechoAppTests.xctest */,
+				BB3C31CE2E476E7500BC8716 /* JibunTechoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB3C31B12E476E7300BC8716 /* JibunTechoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3C31D82E476E7500BC8716 /* Build configuration list for PBXNativeTarget "JibunTechoApp" */;
+			buildPhases = (
+				BB3C31AE2E476E7300BC8716 /* Sources */,
+				BB3C31AF2E476E7300BC8716 /* Frameworks */,
+				BB3C31B02E476E7300BC8716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB3C31B42E476E7300BC8716 /* JibunTechoApp */,
+			);
+			name = JibunTechoApp;
+			packageProductDependencies = (
+			);
+			productName = JibunTechoApp;
+			productReference = BB3C31B22E476E7300BC8716 /* JibunTechoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB3C31C32E476E7500BC8716 /* JibunTechoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3C31DB2E476E7500BC8716 /* Build configuration list for PBXNativeTarget "JibunTechoAppTests" */;
+			buildPhases = (
+				BB3C31C02E476E7500BC8716 /* Sources */,
+				BB3C31C12E476E7500BC8716 /* Frameworks */,
+				BB3C31C22E476E7500BC8716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB3C31C62E476E7500BC8716 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB3C31C72E476E7500BC8716 /* JibunTechoAppTests */,
+			);
+			name = JibunTechoAppTests;
+			packageProductDependencies = (
+			);
+			productName = JibunTechoAppTests;
+			productReference = BB3C31C42E476E7500BC8716 /* JibunTechoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB3C31CD2E476E7500BC8716 /* JibunTechoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3C31DE2E476E7500BC8716 /* Build configuration list for PBXNativeTarget "JibunTechoAppUITests" */;
+			buildPhases = (
+				BB3C31CA2E476E7500BC8716 /* Sources */,
+				BB3C31CB2E476E7500BC8716 /* Frameworks */,
+				BB3C31CC2E476E7500BC8716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB3C31D02E476E7500BC8716 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB3C31D12E476E7500BC8716 /* JibunTechoAppUITests */,
+			);
+			name = JibunTechoAppUITests;
+			packageProductDependencies = (
+			);
+			productName = JibunTechoAppUITests;
+			productReference = BB3C31CE2E476E7500BC8716 /* JibunTechoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB3C31AA2E476E7300BC8716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BB3C31B12E476E7300BC8716 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BB3C31C32E476E7500BC8716 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BB3C31B12E476E7300BC8716;
+					};
+					BB3C31CD2E476E7500BC8716 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BB3C31B12E476E7300BC8716;
+					};
+				};
+			};
+			buildConfigurationList = BB3C31AD2E476E7300BC8716 /* Build configuration list for PBXProject "JibunTechoApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB3C31A92E476E7300BC8716;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BB3C31B32E476E7300BC8716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB3C31B12E476E7300BC8716 /* JibunTechoApp */,
+				BB3C31C32E476E7500BC8716 /* JibunTechoAppTests */,
+				BB3C31CD2E476E7500BC8716 /* JibunTechoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB3C31B02E476E7300BC8716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3C31C22E476E7500BC8716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3C31CC2E476E7500BC8716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB3C31AE2E476E7300BC8716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3C31C02E476E7500BC8716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3C31CA2E476E7500BC8716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB3C31C62E476E7500BC8716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB3C31B12E476E7300BC8716 /* JibunTechoApp */;
+			targetProxy = BB3C31C52E476E7500BC8716 /* PBXContainerItemProxy */;
+		};
+		BB3C31D02E476E7500BC8716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB3C31B12E476E7300BC8716 /* JibunTechoApp */;
+			targetProxy = BB3C31CF2E476E7500BC8716 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB3C31D62E476E7500BC8716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB3C31D72E476E7500BC8716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB3C31D92E476E7500BC8716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JibunTechoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = MPUUTG82H8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuma.JibunTechoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB3C31DA2E476E7500BC8716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JibunTechoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = MPUUTG82H8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuma.JibunTechoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB3C31DC2E476E7500BC8716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPUUTG82H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuma.JibunTechoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JibunTechoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JibunTechoApp";
+			};
+			name = Debug;
+		};
+		BB3C31DD2E476E7500BC8716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPUUTG82H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuma.JibunTechoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JibunTechoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JibunTechoApp";
+			};
+			name = Release;
+		};
+		BB3C31DF2E476E7500BC8716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPUUTG82H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuma.JibunTechoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JibunTechoApp;
+			};
+			name = Debug;
+		};
+		BB3C31E02E476E7500BC8716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPUUTG82H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuma.JibunTechoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JibunTechoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB3C31AD2E476E7300BC8716 /* Build configuration list for PBXProject "JibunTechoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3C31D62E476E7500BC8716 /* Debug */,
+				BB3C31D72E476E7500BC8716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3C31D82E476E7500BC8716 /* Build configuration list for PBXNativeTarget "JibunTechoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3C31D92E476E7500BC8716 /* Debug */,
+				BB3C31DA2E476E7500BC8716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3C31DB2E476E7500BC8716 /* Build configuration list for PBXNativeTarget "JibunTechoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3C31DC2E476E7500BC8716 /* Debug */,
+				BB3C31DD2E476E7500BC8716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3C31DE2E476E7500BC8716 /* Build configuration list for PBXNativeTarget "JibunTechoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3C31DF2E476E7500BC8716 /* Debug */,
+				BB3C31E02E476E7500BC8716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB3C31AA2E476E7300BC8716 /* Project object */;
+}
